@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8692b5c7-8697-4e8b-942b-fc07422436cd" name="Changes" comment="first commit" />
+    <list default="true" id="8692b5c7-8697-4e8b-942b-fc07422436cd" name="Changes" comment="replaced src path">
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demoForJPA/DemoForJpaApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demoForJPA/controller/StudentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demoForJPA/entity/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demoForJPA/repo/StudentRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,8 +25,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package-info" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -50,33 +61,43 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.DemoForJpaApplication.executor&quot;: &quot;Run&quot;,
-    &quot;JAR Application.demoForJPA-0.0.1-SNAPSHOT.jar.executor&quot;: &quot;Run&quot;,
-    &quot;Maven.demoForJPA [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.demoForJPA [install].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;demoforjpa&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Vamshi/Downloads/demo/demo&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.26937738&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.DemoForJpaApplication.executor": "Run",
+    "JAR Application.demoForJPA-0.0.1-SNAPSHOT.jar.executor": "Run",
+    "Maven.demoForJPA [clean].executor": "Run",
+    "Maven.demoForJPA [install].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Vamshi/Desktop/SpringBoot/Spring-Boot",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.26937738",
+    "settings.editor.selected.configurable": "MavenSettings"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Vamshi\Desktop\SpringBoot\Spring-Boot\src\main\java" />
+      <recent name="C:\Users\Vamshi\Desktop\SpringBoot\Spring-Boot" />
+      <recent name="C:\Users\Vamshi\Desktop\SpringBoot\Spring-Boot\.idea" />
+      <recent name="C:\Users\Vamshi\Desktop\SpringBoot\Spring-Boot\demoForJPA\src\main\java" />
+      <recent name="C:\Users\Vamshi\Desktop\SpringBoot\Spring-Boot\demoForJPA\src\main" />
+    </key>
+  </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="mvn clean" />
       <command value="mvn install" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.DemoForJpaApplication">
-    <configuration name="DemoForJpaApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager">
+    <configuration name="DemoForJpaApplication" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.demoForJPA.DemoForJpaApplication" />
-      <module name="demoForJPA" />
+      <module name="DemoForJPA" />
+      <option name="VM_PARAMETERS" value="-Dspring.profiles.active=dev" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.example.demoForJPA.*" />
@@ -139,8 +160,27 @@
       <option name="project" value="LOCAL" />
       <updated>1720864170114</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="replaced src path">
+      <option name="closed" value="true" />
+      <created>1721021794122</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1721021794122</updated>
+    </task>
+    <task id="LOCAL-00006" summary="replaced src path">
+      <option name="closed" value="true" />
+      <created>1721022095818</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1721022095818</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="Dockerfile" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -155,7 +195,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="replaced src path" />
+    <option name="LAST_COMMIT_MESSAGE" value="replaced src path" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
